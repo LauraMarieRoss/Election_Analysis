@@ -84,11 +84,11 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n")
+        f"-------------------------\n\n"
+        f"County Count:\n")
     print(election_results, end="")
-
     txt_file.write(election_results)
-    print("County Count:")
+    
     # 6a: Write a for loop to get the county from the county dictionary.
     for county_name in county_votes:
         # 6b: Retrieve the county vote count.
