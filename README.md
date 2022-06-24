@@ -45,7 +45,7 @@ These results were output to a text file as seen in the image below:
 ![image](https://user-images.githubusercontent.com/105830645/174212427-3eb63295-ae00-442b-93c1-6eb014e5de20.png)
 
 
-## Code Summary
+### Code Summary
 The code for this project included several key python functions such as:
 - Importing a csv file.
 - Writing to a text file.
